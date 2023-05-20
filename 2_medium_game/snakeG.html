@@ -7,12 +7,32 @@
 	<link rel="shortcut icon" href="snake.png" type="image/x-icon">
 	</head>
 	<body>
+		<div id = "allOut">
+			<p>Pontuação: <span id="pontuacao">0</span></p>
+			<p>Fase: <span id="fase">0</span></p>
+		</div>
 		<div id = "final">
 		 	<div id="final-text">
 		 	<p id = "titulo"> Pressione qualquer tecla para começar.</p>
 		 	</div>
 		 </div>
-	<canvas id = "palco" width="800" height="800"></canvas>
+		 <div id = "fase2">
+			<div id="fase2-text">
+			<p id = "titulo"> Parabéns, você passou para a fase 2, pressione qualquer tecla para continuar.</p>
+			</div>
+		</div>
+		<div id = "fase3">
+			<div id="fase3-text">
+			<p id = "titulo"> Parabéns, você passou para a fase 3, pressione qualquer tecla para continuar.</p>
+			</div>
+		</div>
+		<div id = "zerou">
+			<div id="zerou-text">
+			<p id = "titulo"> Parabéns, você zerou o Snake Game!</p>
+			</div>
+		</div>
+	<canvas id = "palco" width="800" height="800">
+	</canvas>
 	
 	<script src="js/snakeControl.js"></script>
 </body>

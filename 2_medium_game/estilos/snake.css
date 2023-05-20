@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 body {
     background-color: black;
 }
@@ -28,7 +29,76 @@ body {
     color: white;
     
 }
+#fase2 {
+    display: none;
+    border-radius: 10px;
+    z-index: 5;
+    margin: 0;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+}
+#fase2-text {
+    text-align: center;
+    padding: 100px 20px 20px 20px;
+    color: white;
+    
+}
+#fase3 {
+    display: none;
+    border-radius: 10px;
+    z-index: 5;
+    margin: 0;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+}
+#fase3-text {
+    text-align: center;
+    padding: 100px 20px 20px 20px;
+    color: white;
+    
+}
+#zerou{
+    display: none;
+    border-radius: 10px;
+    z-index: 5;
+    margin: 0;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+}
+#zerou-text {
+    text-align: center;
+    padding: 100px 20px 20px 20px;
+    color: white;
+    
+}
 #titulo {
     font-size: 30px;
     font-weight: bold;
 }
+
+#allOut {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    color :#509BDC;
+    font-weight: bold;
+}
+
+
